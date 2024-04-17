@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>AccountTriggerControllerTest</members>
+        <members>AccountTriggerController</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>AccountTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>SQX_Team_Members__c</members>
+        <members>Account</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomPermission</name>
+    </types>
+    <types>
+        <members>Account_Admin</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>ActiveAccountError</members>
+        <members>MissingAccountAdminPsError</members>
+        <members>HrAdminMissingFromAccount</members>
+        <name>CustomLabels</name>
+    </types>
+    <version>59.0</version>
+</Package>
